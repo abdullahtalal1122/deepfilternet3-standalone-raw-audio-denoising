@@ -1,6 +1,6 @@
 {
   "name": "deepfilter-standalone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standalone DeepFilterNet3 audio denoiser - direct buffer processing without AudioWorklet",
   "type": "module",
   "main": "dist/index.js",
@@ -13,6 +13,14 @@
       "require": "./dist/index.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abubakarwaqas/deepfilter-standalone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abubakarwaqas/deepfilter-standalone/issues"
+  },
+  "homepage": "https://github.com/abubakarwaqas/deepfilter-standalone#readme",
   "files": [
     "dist",
     "src/df3"
